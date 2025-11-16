@@ -1,0 +1,100 @@
+[
+    {
+        "title": "Build a longest word finder app",
+        "desc": "Given a sentence, find and return the length of the longest word. This teaches string manipulation, splitting, and iterating over elements while keeping track of a maximum value.",
+        "func_name": "findLongestWordLength",
+        "args": "str",
+        "test_bucket": [
+            { "arg": ["The quick brown fox jumped over the lazy dog"], "expect": 6 },
+            { "arg": ["The lord of meatballs is kootfe!"], "expect": 9 }
+        ],
+        "symbol": "longestwordlength",
+        "hint": "Split the sentence into words and iterate through them, keeping track of the longest."
+    },
+    {
+        "title": "Sum of even numbers",
+        "desc": "Calculate the sum of all even numbers in a given array. This teaches iteration, conditionals, and accumulation patterns.",
+        "func_name": "sumEvenNumbers",
+        "args": "arr",
+        "test_bucket": [
+            { "arg": [[1, 2, 3, 4, 5, 6]], "expect": 12 },
+            { "arg": [[10, 11, 13, 14]], "expect": 24 },
+            { "arg": [[0, 1, 2]], "expect": 2 }
+        ],
+        "symbol": "sumeven",
+        "hint": "Loop through each element and add it to a sum if it is divisible by 2."
+    },
+    {
+        "title": "Reverse a string",
+        "desc": "Return the reversed version of an input string. This teaches string manipulation, loops, and building new data from existing data.",
+        "func_name": "reverseString",
+        "args": "str",
+        "test_bucket": [
+            { "arg": ["hello"], "expect": "olleh" },
+            { "arg": ["meatball"], "expect": "llabtaem" }
+        ],
+        "symbol": "reversestr",
+        "hint": "Iterate from the end of the string to the start, building a new string."
+    },
+    {
+        "title": "Find max in array",
+        "desc": "Return the largest number in an array. This teaches comparison operations and tracking a 'current best' value during iteration.",
+        "func_name": "findMax",
+        "args": "arr",
+        "test_bucket": [
+            { "arg": [[1, 2, 3, 4, 5]], "expect": 5 },
+            { "arg": [[10, -5, 7]], "expect": 10 }
+        ],
+        "symbol": "findmax",
+        "hint": "Start with the first element as the max, then iterate and update if you find a larger number."
+    },
+    {
+        "title": "Count vowels",
+        "desc": "Count the number of vowels (a, e, i, o, u) in a string. This teaches character checking and conditional logic inside loops.",
+        "func_name": "countVowels",
+        "args": "str",
+        "test_bucket": [
+            { "arg": ["hello"], "expect": 2 },
+            { "arg": ["meatball"], "expect": 3 }
+        ],
+        "symbol": "countvowels",
+        "hint": "Loop through each character and check if it matches any vowel."
+    },
+    {
+        "title": "Sum of two largest numbers",
+        "desc": "Return the sum of the two largest numbers in an array. This teaches sorting, comparison, and working with subsets of data.",
+        "func_name": "sumTwoLargest",
+        "args": "arr",
+        "test_bucket": [
+            { "arg": [[1, 2, 3, 4, 5]], "expect": 9 },
+            { "arg": [[10, 7, 3]], "expect": 17 }
+        ],
+        "symbol": "sumtwolargest",
+        "hint": "Find the largest number, remove it from consideration, then find the next largest."
+    },
+    {
+        "title": "Check palindrome",
+        "desc": "Determine if a string reads the same forwards and backwards. This teaches indexing, symmetry, and conditional logic.",
+        "func_name": "isPalindrome",
+        "args": "str",
+        "test_bucket": [
+            { "arg": ["racecar"], "expect": true },
+            { "arg": ["meatball"], "expect": false }
+        ],
+        "symbol": "ispalindrome",
+        "hint": "Compare characters from start and end moving towards the center."
+    },
+    {
+        "title": "Fibonacci number",
+        "desc": "Return the nth Fibonacci number. This teaches recursion or iterative calculation and understanding of sequences.",
+        "func_name": "fibonacci",
+        "args": "n",
+        "test_bucket": [
+            { "arg": [5], "expect": 5 },
+            { "arg": [10], "expect": 55 }
+        ],
+        "symbol": "fibonacci",
+        "hint": "Each Fibonacci number is the sum of the two previous numbers; implement recursively or iteratively."
+    }
+]
+
